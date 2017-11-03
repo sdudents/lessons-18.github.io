@@ -1,0 +1,130 @@
+@font-face {
+  font-family: 'FontAwesome';
+  src: url('../fonts/fontawesome-webfont.eot');
+  src: url('../fonts/WebFont.eot?iefix') format('eot');
+  src: url('../fonts/FontAwesome.otf') format('otf'), url('../fonts/fontawesome-webfont.woff') format('woff'), url('../fonts/fontawesome-webfont.ttf') format('truetype'), url('../fonts/fontawesome-webfont.svg') format('svg');
+}
+/* line 17, style.less */
+body {
+  background: url(../img/bg.png) no-repeat;
+}
+/* line 20, style.less */
+.header {
+  padding-top: 30px;
+  height: 100px;
+}
+/* line 23, style.less */
+.header .header_block {
+  float: right;
+  width: 500px;
+  text-align: center;
+}
+/* line 27, style.less */
+.header .header_block a {
+  text-decoration: none;
+  font-size: 23px;
+  color: #fff;
+  margin-right: 20px;
+  text-transform: uppercase;
+}
+/* line 34, style.less */
+.header .header_block .join {
+  border: solid 2px;
+  border-radius: 3px;
+  padding: 5px 10px;
+}
+/* line 39, style.less */
+.header .header_block .fa {
+  font-size: 15px;
+  color: #6400C1;
+  margin-left: 10px;
+  position: relative;
+}
+/* line 49, style.less */
+.main .main_block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 180px;
+}
+/* line 54, style.less */
+.main .block_input {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 60px;
+}
+/* line 58, style.less */
+.main .block_input form {
+  width: 260px;
+}
+/* line 61, style.less */
+.main .block_input .btn {
+  width: 260px;
+}
+/* line 64, style.less */
+.main .block_input #exampleInputPassword1::before {
+  font-family: "FontAwesome";
+  content: "\f007";
+  position: absolute;
+  font-size: 30px;
+  color: black;
+}
+/* line 74, style.less */
+.footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-top: 75px;
+}
+/* line 78, style.less */
+.footer .target {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 10px;
+}
+/* line 81, style.less */
+.footer .target span {
+  border-right: solid;
+  padding-right: 10px;
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+/* line 88, style.less */
+.footer .target p {
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding-left: 10px;
+}
+/* line 96, style.less */
+.footer .data span {
+  margin-right: 5px;
+}
+/* line 99, style.less */
+.footer .data p {
+  font-size: 18px;
+  font-weight: 700;
+  margin-right: 10px;
+}
+/* line 106, style.less */
+.error {
+  border: solid red 1px;
+}
+/* line 109, style.less */
+label.error {
+  position: absolute;
+  border: none;
+  color: red;
+}
